@@ -3,6 +3,16 @@ entries:
   cert-exporter:
   - apiVersion: v2
     appVersion: v2.15.0
+    created: "2025-03-11T07:09:26.068034358Z"
+    description: Monitors and exposes PKI information as Prometheus metrics
+    digest: 103a46b2f05c249358c9e994e654a9d9b714b9819031859451c776b406bf354e
+    name: cert-exporter
+    type: application
+    urls:
+    - https://github.com/croesnick/cert-exporter/releases/download/cert-exporter-3.11.0-alpha.2/cert-exporter-3.11.0-alpha.2.tgz
+    version: 3.11.0-alpha.2
+  - apiVersion: v2
+    appVersion: v2.15.0
     created: "2025-03-11T06:00:57.480598652Z"
     description: Monitors and exposes PKI information as Prometheus metrics
     digest: a9f54da2b2322a0cc4b74f54d263c737df1fe9c3419c9f6bd3aa79a77399c2c8
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://github.com/croesnick/cert-exporter/releases/download/cert-exporter-3.11.0-alpha.0/cert-exporter-3.11.0-alpha.0.tgz
     version: 3.11.0-alpha.0
-generated: "2025-03-11T06:00:57.480615312Z"
+generated: "2025-03-11T07:09:26.068052322Z"
